@@ -1,0 +1,13 @@
+custom_name: "Basic literals: numbers, strings and characters"
+content:
+  - Theory
+  - Initializing and displaying various variables
+  - Apple supply
+  - Match correct answers
+  - Find an invalid literal
+  - Non string literals
+  - A literal for an address
+  - Incorrect literal
+  - A valid string
+  - Printing order
+  - Save the day
