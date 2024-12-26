@@ -7,7 +7,11 @@ public class Main {
         boolean isRainy = scanner.nextBoolean();
         boolean isCold = scanner.nextBoolean();
 
-        // Calculate and print decision
+        if (isSunny && !isRainy && !isCold) {
+            System.out.print("true");
+        } else {
+            System.out.print("false");
+        }
 
         scanner.close();
     }
