@@ -16,3 +16,4 @@ content:
   - Calling methods
   - Floating-point types
   - Comparing values. Relational operators
+  - One-line condition with ternary operator
