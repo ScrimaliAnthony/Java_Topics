@@ -1,0 +1,13 @@
+content:
+  - Theory
+  - Converting and printing double values as integers
+  - Rounding down a halved float value to an integer
+  - Casting double to other types
+  - Penny for your euros
+  - Widening casting
+  - "Penny for your thoughts, dollar edition"
+  - Define the types
+  - Casting long to byte with intermediate int
+  - Sequential conversions
+  - Possible implicit castings
+  - A condition

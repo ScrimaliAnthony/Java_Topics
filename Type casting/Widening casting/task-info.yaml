@@ -1,0 +1,25 @@
+type: sorting
+options:
+  - long
+  - int
+  - short
+  - float
+  - byte
+  - double
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2310#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 27 Dec 2024 12:32:05 UTC"
+record: -1
+ordering:
+  - 4
+  - 2
+  - 1
+  - 0
+  - 3
+  - 5
