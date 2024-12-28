@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: A body of the method
+  - text: A method name
+  - text: "Return type, or void"
+  - text: A list of parameters
+  - text: Modifiers
+  - text: A class
+  - text: Variables
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/10987#comment
+status: Solved
+record: -1
+local_check: false
