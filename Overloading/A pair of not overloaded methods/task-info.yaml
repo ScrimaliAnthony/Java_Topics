@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: true
 options:
-  - text: "<code>int method(int i) { return i; }</code>"
-  - text: "<code>String method(int i, String s) { return s + i; }</code>"
-  - text: "<code>float method(float f) { return f; }</code>"
   - text: "<code>void method(int i) { System.out.println(i); }</code>"
+  - text: "<code>int method(int i) { return i; }</code>"
+  - text: "<code>float method(float f) { return f; }</code>"
+  - text: "<code>String method(int i, String s) { return s + i; }</code>"
 files:
   - name: src/Task.java
     visible: true

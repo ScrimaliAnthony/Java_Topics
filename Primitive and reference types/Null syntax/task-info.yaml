@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "NULL"
+  - text: "Null"
+  - text: "null"
+  - text: NaN
+  - text: nil
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2263#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 29 Dec 2024 22:27:26 UTC"
+record: -1
+selected_options:
+  - 2
+local_check: false

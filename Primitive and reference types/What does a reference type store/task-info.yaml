@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: the address of data
+  - text: an actual value
+  - text: the code of an object
+  - text: nothing
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2260#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 29 Dec 2024 22:24:42 UTC"
+record: -1
+selected_options:
+  - 0
+local_check: false

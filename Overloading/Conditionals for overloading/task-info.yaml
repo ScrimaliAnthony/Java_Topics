@@ -1,9 +1,9 @@
 type: choice
 is_multiple_choice: true
 options:
-  - text: The methods must have different type of returning value.
   - text: The methods must have different names of parameters.
   - text: The methods must have parameters of different types.
+  - text: The methods must have different type of returning value.
   - text: The methods must have the same name.
 files:
   - name: src/Task.java
