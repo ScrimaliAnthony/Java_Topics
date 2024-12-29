@@ -1,0 +1,21 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The methods must have different type of returning value.
+  - text: The methods must have different names of parameters.
+  - text: The methods must have parameters of different types.
+  - text: The methods must have the same name.
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2037#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 29 Dec 2024 17:25:03 UTC"
+record: -1
+selected_options:
+  - 2
+  - 3
+local_check: false
