@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - "numbers[0]"
+  - "numbers[6]"
+  - numbers.length
+  - "numbers[7]"
+options:
+  - 1
+  - 7
+  - 4
+  - ArrayIndexOutOfBoundsException
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2127#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Mon, 30 Dec 2024 09:35:49 UTC"
+record: -1
+ordering:
+  - 0
+  - 2
+  - 1
+  - 3
