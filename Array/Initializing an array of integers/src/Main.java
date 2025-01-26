@@ -4,12 +4,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        int[] numbers = new int[4];
-        for (int i = 0; i < 4; i++) {
-            numbers[i] = sc.nextInt();
-        }
+        int[] numbers = {12, 17, 8, 101, 33};
 
         System.out.println(Arrays.toString(numbers));
     }

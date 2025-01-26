@@ -15,11 +15,6 @@ files:
     learner_created: false
 feedback_link: https://hyperskill.org/learn/step/47804#comment
 status: Solved
-feedback:
-  message: <html>Correct solution</html>
-  time: "Mon, 30 Dec 2024 09:29:48 UTC"
 record: -1
-selected_options:
-  - 3
 custom_name: "Crunching Numbers: How Much Space?"
 local_check: false

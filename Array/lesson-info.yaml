@@ -1,12 +1,13 @@
 content:
   - Theory
+  - Counting cookies in a digital jar
+  - Crunching Numbers  How Much Space
+  - Basic operations
+  - Initializing an array of integers
+  - Initializing an array of characters
   - Initializing an array of longs
   - Ways to create an array of ints
   - The last element of an array
   - Allocation memory
-  - Mystery of the array
-  - Counting cookies in a digital jar
-  - Initializing an array of characters
-  - Crunching Numbers  How Much Space
   - Determine the output
-  - Basic operations
+  - Mystery of the array
