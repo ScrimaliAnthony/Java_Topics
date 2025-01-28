@@ -7,7 +7,7 @@ captions:
 options:
   - '''H'''
   - '"464531######0207"'
-  - 100000000
+  - 100_000_000
   - '''text'''
 files:
   - name: src/Task.java

@@ -43,7 +43,7 @@
 <li>invalid method declaration: a mistake in the keyword (<code class="language-java">pulic</code> instead of <code class="language-java">public</code>).</li>
 </ul>
 <pre><code class="language-java">pulic static void main(String[] args)</code></pre>
-<p><strong>A program can be compiled but cannot be run.</strong> This is the case when the main method has a correct declaration as a regular method but doesn't satisfy the specific requirement of the main method.</p>
+<p><strong>A program can be compiled but cannot be <a class="theory-lookup not-relevant" href="/learn/step/3489" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a run refers to the execution of a program or a specific task within a program. | In the context of threads, the run method is where the code that should be executed in a new thread is placed. When a thread is started, it calls the run method, which then executes the specified code. Interruptions during a run can occur on any statement within the run method, such as checking a loop's condition or performing an action during sleep. If the thread is sleeping, an exception is thrown and handled. If not, the loop is stopped according to the specified condition on the next iteration. The run method can be implemented directly or by using the static method inside the run method, which resets the interruption status. A run example would be a task that counts numbers while the thread is not interrupted.">run</a>.</strong> This is the case when the main method has a correct declaration as a regular method but doesn't satisfy the specific requirement of the main method.</p>
 <p>Examples:</p>
 <ul>
 <li>invalid arguments (should be <code class="language-java">String[] args</code>)</li>

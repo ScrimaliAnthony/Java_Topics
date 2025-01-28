@@ -43,14 +43,14 @@
 </ul>
 <h5 id="the-hello-world-program-under-a-microscope">The Hello World program under a microscope</h5>
 <p>The <strong>Hello World</strong> program illustrates the basic elements of Java programs. For now, we will discuss only the most important elements.</p>
-<p>1. <strong>The </strong><strong>public class</strong><strong>.</strong> It is the basic unit of a program. Every Java program must have at least one class. The definition of a class consists of the <code class="language-java">class</code> keyword followed by the <a class="theory-lookup not-relevant" href="/learn/step/3521" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a class name is the identifier given to a class, which is used to declare and create objects. | It is a user-defined name that appears at the beginning of a class declaration. Class names do not require an object to be created and are typically used for utility functions that do not depend on the state of an object. They can only access static variables and call other static methods of the same class. It is generally recommended to start your package hierarchy with the reversed domain name of your company to avoid creating packages with the same name as other public packages.">class name</a>. A class can have any name, such as <code class="language-java">App</code>, <code class="language-java">Main</code>, or <code class="language-java">Program</code>, but it must not start with a digit. A set of braces <code class="language-java">{...}</code> encloses the body of a class.</p>
+<p>1. <strong>The </strong><strong>public class</strong><strong>.</strong> It is the basic unit of a program. Every Java program must have at least one class. The definition of a class consists of the <code class="language-java">class</code> keyword followed by the class name. A class can have any name, such as <code class="language-java">App</code>, <code class="language-java">Main</code>, or <code class="language-java">Program</code>, but it must not start with a digit. A set of braces <code class="language-java">{...}</code> encloses the body of a class.</p>
 <pre><code class="language-java">public class Main {
     // ...
 }</code></pre>
 <p>The text after <code class="language-java">//</code> is just a comment, not a part of the program. We will learn about comments in detail in later topics.</p>
 <p><strong>2. The </strong><strong><a class="theory-lookup not-relevant" href="/learn/step/3521" rel="noopener noreferrer nofollow" target="_blank" title="In Java, the main method is a special method that serves as the entry point for any application and the starting point for program execution. | It is declared with the keyword public static void main(String[] args), where:
 
-- public indicates that the method can be accessed from outside the class. - static means that the method can be called without creating an instance of the class. - void indicates that the method does not return any value. - main is the name of the method, which should always be the same. - String[] args represents a sequence of arguments passed to the program from the outside world. The main method must be contained within a class, and its name is predefined and case-sensitive.">main method</a></strong><strong>.</strong> To make the program runnable, we put a method named <code class="language-java">main</code> inside a class, otherwise, it will not run. It is the entry point for a Java program. Again, the braces <code class="language-java">{...}</code> enclose the body of the method, which contains programming statements.</p>
+- public indicates that the method can be accessed from outside the class. - static means that the method can be called without creating an instance of the class. - void indicates that the method does not return any value. - main is the name of the method, which should always be the same. - String[] args represents a sequence of arguments passed to the program from the outside world. The main method must be contained within a class, and its name is predefined and case-sensitive.">main method</a></strong><strong>.</strong> To make the program runnable, we put a method named <code class="language-java">main</code> inside a class, otherwise, it will not <a class="theory-lookup not-relevant" href="/learn/step/3521" rel="noopener noreferrer nofollow" target="_blank" title="In Java, a run refers to the execution of a program or a specific task within a program. | In the context of threads, the run method is where the code that should be executed in a new thread is placed. When a thread is started, it calls the run method, which then executes the specified code. Interruptions during a run can occur on any statement within the run method, such as checking a loop's condition or performing an action during sleep. If the thread is sleeping, an exception is thrown and handled. If not, the loop is stopped according to the specified condition on the next iteration. The run method can be implemented directly or by using the static method inside the run method, which resets the interruption status. A run example would be a task that counts numbers while the thread is not interrupted.">run</a>. It is the entry point for a Java program. Again, the braces <code class="language-java">{...}</code> enclose the body of the method, which contains programming statements.</p>
 <pre><code class="language-java">public static void main(String[] args) {
     // statements go here
 }</code></pre>
@@ -61,7 +61,8 @@
 <p>This is one of the most important things to understand from the <strong>Hello World</strong> program. We invoke a special method <code class="language-java">println</code> to display a string followed by a new line on the screen. We will often use this approach to print something of interest to the screen. The text is printed without double quotes.</p>
 <p> </p>
 <p> </p>
-<p></p><div class="alert alert-warning">
+<p></p>
+<div class="alert alert-warning">
 <p>It is important that <strong>"Hello, World!"</strong> is not a keyword or an identifier; it is just some text to be printed.</p>
 <p></p></div>
 <p> </p>
@@ -70,7 +71,8 @@
 <p>As you can see, even a simple Java program consists of many elements, including <strong>keywords</strong> that are parts of the language. In total, Java provides more than 50 keywords which you will gradually learn on this platform. The full list is <a href="https://en.wikipedia.org/wiki/List_of_Java_keywords" rel="noopener noreferrer nofollow" target="_blank">here</a>, though you don't need to remember all of them at this moment.</p>
 <p> </p>
 <p> </p>
-<p></p><div class="alert alert-primary">
+<p></p>
+<div class="alert alert-primary">
 <p>Note, <code class="language-java">main</code> is outside the given list because it is not a keyword.</p>
 <p></p></div>
 <p> </p>
